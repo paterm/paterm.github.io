@@ -12,7 +12,11 @@
 	}
 
 	.b-section--first:after {
-		display: none;
+		background-size: 37%;
+	}
+
+	.b-section--third .b-section__title {
+		font-size: 40px;
 	}
 
 	.b-section__title {
@@ -34,6 +38,14 @@
 @media (max-width: 991px) { /*  and (min-width: 768px) */
 	.b-container {
 		width: 720px;
+	}
+
+	.b-section--first:after {
+		display: none;
+	}
+
+	.b-section--third .b-section__title {
+		font-size: 44px;
 	}
 
 	.b-condition-list__item {
