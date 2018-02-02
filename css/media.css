@@ -117,3 +117,18 @@
     	line-height: 20px;
 	}
 }
+
+@media (max-width: 534px) {
+    .b-container {
+        width: 100%;
+    }
+
+    .b-section__title {
+    	font-size: 25px;
+		line-height: 32px;
+    }
+
+    .b-prise-list__item span {
+    	width: 65%;
+    }
+}

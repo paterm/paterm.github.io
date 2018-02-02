@@ -251,6 +251,7 @@ html, body {
 		.b-condition-list__item-info {
 			float: left;
 			width: 510px;
+			max-width: 100%;
 			padding-top: 15px;
 			margin-left: 30px;
 		}
