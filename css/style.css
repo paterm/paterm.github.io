@@ -4,7 +4,7 @@ html, body {
 }
 
 .b-page {
-	width: : 100%;
+	width: 100%;
 }
 
 .b-section {
@@ -21,12 +21,17 @@ html, body {
 		right: 0;
 		left: 0;
 		background: url(../images/back.png) no-repeat right bottom;
+		background-size: 45%;
 		pointer-events: none;
 		user-select: none;
 	}
 
 	.b-section--first .b-section__title {
 		max-width: 818px;
+	}
+
+	.b-section--first .b-button__container {
+		display: inline-block;
 	}
 
 	.b-section--second {
@@ -287,7 +292,6 @@ html, body {
 
 	.b-profit-list__item {
 		display: inline-block;
-		width: 250px;
 		vertical-align: top;
 	}
 
@@ -309,7 +313,7 @@ html, body {
 
 		.b-profit-list__item-image {
 			display: inline-block;
-			width: 100%;
+			width: 250px;
 			height: 140px;
 			margin-bottom: 20px;
 			border: 2px solid #fff;
@@ -318,6 +322,7 @@ html, body {
 		}
 
 		.b-profit-list__item-title {
+			display: block;
 			font-size: 18px;
 			font-weight: 700;
 			line-height: 20px;
