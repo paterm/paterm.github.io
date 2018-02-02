@@ -103,9 +103,11 @@ html, body {
 .b-logo {
 	display: inline-block;
 	width: 313px;
+	max-width: 100%;
 	height: 25px;
 	margin-top: 33px;
-	background-image: url(../images/top-logo.png);
+	background: url(../images/top-logo.png) no-repeat;
+	background-size: contain;
 }
 
 .b-section__title {
