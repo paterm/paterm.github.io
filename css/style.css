@@ -69,9 +69,11 @@ a:hover {
 			display: flex;
 		    align-items: center;	
 			margin-bottom: 50px;
+			max-width: 90vw;
 		}
 
 			.b-user__avatar {
+				flex: none;
 				width: 100px;
 				height: 100px;
 				margin-right: 20px;
@@ -120,7 +122,7 @@ a:hover {
 			display: flex;
 			flex-direction: column;
 		    width: 500px;
-    		max-width: 90%;
+    		max-width: 90vw;
 		}
 
 			.b-contact + .b-contact {

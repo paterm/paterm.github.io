@@ -3,3 +3,26 @@
 		display: none;
 	}
 }
+
+@media screen and (max-width: 600px) {
+	.p-page:after {
+		display: none;
+	}
+
+	.b-user__avatar {
+		width: 60px;
+		height: 60px;
+	}
+
+	.b-user__info-title {
+		font-size: 1em;
+	}
+
+	.s-contacts {
+		width: auto;
+	}
+
+	.b-contact__text {
+		font-size: 12px;
+	}
+}
