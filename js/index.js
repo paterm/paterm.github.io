@@ -1,7 +1,11 @@
 
-setTimeout(() => {
+$(document).ready(() => {
+
+	// type description
 	const typed = new Typed('.b-logo__text', {
+		startDelay: 2000,
 		strings: [
+			"",
 			"Full cycle of development",
 			"Project managment",
 			"Design",
@@ -12,6 +16,8 @@ setTimeout(() => {
 			"Tests",
 			"&lt;PATERM/&gt;"
 		],
-		typeSpeed: 90
+		typeSpeed: 90,
+		loop: true
 	});
-}, 2000);
+
+});

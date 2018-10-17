@@ -99,12 +99,14 @@ a:hover {
 
 		.b-logo {
 			position: relative;
+			max-width: 80%;
 			padding: 20px 40px;
 		    background-color: #fff;
 		    box-shadow: 0 0 60px 20px rgba(0, 0, 0, 0.03);
 		    color: #000;
 		    font-size: 72px;
 		    font-weight: bold;
+		    text-align: center;
 		}
 
 		.b-logo:after {
@@ -144,5 +146,5 @@ a:hover {
 		    bottom: 0;
 		    background: url(../images/back-playground.png) #ccc;
 		    filter: grayscale(100%);
-		    opacity: 0.1;
+		    opacity: .2;
 		}
