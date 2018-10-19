@@ -6,17 +6,15 @@ $(document).ready(() => {
 		startDelay: 2000,
 		strings: [
 			"",
-			"Full cycle of development",
-			"Project managment",
-			"Design",
-			"Adaptive imposition",
-			"Frontend",
-			"Backend",
-			"Optimization",
-			"Tests",
+			"React",
+			"Angular",
+			"Vue.js",
+			"Node.js",
+			"React Native",
 			"&lt;PATERM/&gt;"
 		],
 		typeSpeed: 90,
+		backSpeed: 50,
 		loop: true
 	});
 
